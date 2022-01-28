@@ -1,0 +1,37 @@
+.pagination{
+    width: 500px;
+    margin: auto;
+   box-shadow: 0 5px 20px gray;
+   padding: 10px 20px;
+}
+
+.pagination button{
+    border: 0;
+    background-color: #2C3E50;
+    color: #fff;
+    margin-right: 10px;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+.pagination .selected{
+    background-color: #FD5A01;
+    color: #fff;
+}
+
+.select{
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #FD5A01;
+    border-radius: 5px;
+    outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .pagination{
+        width: 100%;
+    }
+    .select{
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.blog-img img{
+  width: 170px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .blog-img img{
+    width: 100%;
+    height: 200px;
+  }
+}
