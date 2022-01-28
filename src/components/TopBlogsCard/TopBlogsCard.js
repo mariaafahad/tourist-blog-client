@@ -18,14 +18,14 @@ const TopBlogsCard = ({ blog }) => {
             {title}
           </p>
           <Rating
-            style={{ color: "#FF9529", textAlign: "center" }}
+            style={{ color: "#00008B", textAlign: "center" }}
             initialRating={rating}
             emptySymbol="far fa-star"
             fullSymbol="fas fa-star"
             readonly
           ></Rating>
-          <Link to={`/blogs/${_id}`} style={{ textDecoration: "none", display: "block", marginTop: "5px" }}>
-            <button className="signin authBtn">Read</button>
+          <Link to={`/blogs/${_id}`} style={{ color: "#00FFFF", textDecoration: "none", display: "block", marginTop: "5px" }}>
+            <button style={{ color: "#00008B", backgroundColor: "#00FFFF" }} className="signin authBtn">Read</button>
           </Link>
         </div>
       </div>

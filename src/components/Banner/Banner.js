@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { Carousel, Col, Container, Offcanvas, Row } from "react-bootstrap";
+import { Col, Container, Offcanvas, Row } from "react-bootstrap";
 import "./Banner.css";
-import Image1 from "../../images/1.jpg";
-import Image2 from "../../images/2.jpg";
-import Image3 from "../../images/3.jpg";
+
 
 const Banner = () => {
 
@@ -16,7 +14,7 @@ const Banner = () => {
         <div className="banner-area">
             <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title style={{ color: "#2C3E50", fontSize: "24px" }}>Top Travel Spots</Offcanvas.Title>
+                    <Offcanvas.Title style={{ color: "#2C3E50", fontSize: "24px", fontFamily: "Merriweather" }}>Top Travel Spots</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <h4>Cox's Bazar</h4>
@@ -46,11 +44,7 @@ const Banner = () => {
                                 color: "#7f8c8d",
                             }}
                         >
-                            experience like never riding a bus or even eaten beans, she goes
-                            out to explore the world. She shares her failures, her travel
-                            mistakes of full of bad luck and near-death experiences.
-                            experience like never riding a bus or even eaten beans, she goes
-                            out to explore the world. She shares her failures.
+                            Tourist Bloggers is a comprehensive summary of the day's most important blog posts and news articles from the best 100 Tourism blogs on the web, and delivered to your email inbox each morning.
                         </p>
                         <button className="learnmoreBtn" onClick={handleShow}>Top Spots <i className="fas fa-arrow-right"></i></button>
                     </Col>

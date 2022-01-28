@@ -24,7 +24,7 @@ const BlogCard = ({ blog }) => {
       </ListGroup>
       <Card.Body>
         <Link to={`/blogs/${_id}`} style={{ textDecoration: "none" }}>
-          <button className="signin authBtn">Read</button>
+          <button style={{ color: "#00008B", backgroundColor: "#00FFFF" }} className="signin authBtn">Read</button>
         </Link>
       </Card.Body>
     </Card>

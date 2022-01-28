@@ -9,7 +9,7 @@
 }
 
 .nav-menu a:hover{
-   background-color: #FE7402;
+   background-color: #0c6b63;
    color: #fff;
 }
 
@@ -21,7 +21,7 @@
   padding: 0.5em 1em;
   outline: none;
   border: none;
-background-color: #2c3e50;
+background-color: #0f586e;
 }
 
 .signin::before {
@@ -32,7 +32,7 @@ background-color: #2c3e50;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #FE7402;
+    background-color: #02fef1;
     transform-origin: center right;
     transform: scaleX(0);
     transition: transform 0.25s ease-in-out;

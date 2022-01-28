@@ -1,28 +1,32 @@
+body{
+    font-family:Merriweather;
+}
+
 .pagination{
     width: 500px;
     margin: auto;
-   box-shadow: 0 5px 20px gray;
+   box-shadow: 0 5px 20px rgb(189, 178, 178);
    padding: 10px 20px;
 }
 
 .pagination button{
     border: 0;
-    background-color: #2C3E50;
-    color: #fff;
+    background-color: #27ecdc;
+    color: rgb(161, 150, 150);
     margin-right: 10px;
     padding: 6px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .pagination .selected{
-    background-color: #FD5A01;
+    background-color: #01fde8;
     color: #fff;
 }
 
 .select{
     width: 250px;
     padding: 5px;
-    border: 1px solid #FD5A01;
+    border: 1px solid #01ecfd;
     border-radius: 5px;
     outline: none;
 }

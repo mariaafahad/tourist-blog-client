@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SignUp.css";
 import { Alert, Col, Container, Row, Spinner } from "react-bootstrap";
-import logo from "../../images/logo.png";
+
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import swal from "sweetalert";
 import useFirebase from "../../hooks/useFirebase";

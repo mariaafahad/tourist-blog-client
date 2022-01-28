@@ -32,19 +32,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </Col>
-                    <Col lg={2}>
-                        <div className="footer-widget">
-                            <h5>MY ACCOUNT</h5>
-                            <ul>
-                                <li>My Account</li>
-                                <li>Checkout</li>
-                                <li>Login</li>
-                                <li>Address</li>
-                                <li>Register Status</li>
-                                <li>Tour Tracking</li>
-                            </ul>
-                        </div>
-                    </Col>
+
                     <Col lg={2}>
                         <div className="footer-widget">
                             <h5>Quick Links</h5>

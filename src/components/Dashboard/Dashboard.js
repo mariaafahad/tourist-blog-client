@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Dashboard.css";
 import { Button, Col, Container, Offcanvas, Row } from "react-bootstrap";
-import logo from "../../images/logo.png";
+
 import { Link, NavLink, Outlet } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -108,7 +108,7 @@ const Dashboard = () => {
               <Offcanvas.Header closeButton></Offcanvas.Header>
               <div className="side-navbar">
                 <Link to="/" className="logo">
-                  <img style={{ width: "120px" }} src={logo} alt="" />
+
                 </Link>
 
                 <div className="dashboard-menu">

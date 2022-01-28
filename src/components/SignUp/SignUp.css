@@ -1,7 +1,7 @@
 .form-area{
     font-family: sans-serif;
     text-align: center;
-    border: 2px solid #FE7402;
+    border: 2px solid #02e1fe;
     margin-top: 10px;
     padding: 20px 0;
     border-radius: 15px;
@@ -17,12 +17,12 @@
     text-indent: 10px;
     outline: none;
     border: none;
-    border-bottom: 2px solid #FE7402;
+    border-bottom: 2px solid #02a2fe;
 }
 
 .securityBtn{
     border: none;
-    background: #FE7402;
+    background: #02fef1;
     color: #fff;
     padding: 10px 30px;
     border-radius: 10px;

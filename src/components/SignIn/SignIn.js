@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./SignIn.css";
 import { Alert, Col, Container, Row, Spinner } from "react-bootstrap";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import logo from "../../images/logo.png";
+
 import useFirebase from "../../hooks/useFirebase";
 
 const SignIn = () => {

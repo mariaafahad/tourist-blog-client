@@ -5,7 +5,7 @@
 .side-navbar {
     padding-left: 30px;
     padding-top: 16px;
-    background-color: #fff;
+    background-color: rgb(147, 233, 236);
     box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.15);
     -webkit-box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.15);
     -moz-box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.15);
@@ -42,7 +42,7 @@
     color: #fff;
 }
 .side-navbar .selected {
-    color: #db2d2e;
+    color: #4d016b;
 }
 .dashboard-sm {
     display: none;
