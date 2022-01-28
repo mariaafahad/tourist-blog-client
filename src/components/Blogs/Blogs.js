@@ -17,7 +17,7 @@ const Blogs = () => {
 
   useEffect(() => {
     fetch(
-      `http://localhost:5000/blogs?page=${page}&&size=${size}`
+      `https://powerful-everglades-66107.herokuapp.com/blogs?page=${page}&&size=${size}`
     )
       .then((res) => res.json())
       .then((data) => {

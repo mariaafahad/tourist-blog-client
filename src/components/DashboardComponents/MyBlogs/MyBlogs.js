@@ -15,7 +15,7 @@ const MyOrders = () => {
   const myBlog = useSelector((state) => state.allBlogs.myBlog);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/myBlogs/${user?.email}`)
+    fetch(`https://powerful-everglades-66107.herokuapp.com/myBlogs/${user?.email}`)
       .then(res => res.json())
       .then(data => {
         dispatch(setMyBlog(data))
@@ -32,7 +32,7 @@ const MyOrders = () => {
     })
       .then((willDelete) => {
         if (willDelete) {
-          fetch(`http://localhost:5000/deleteBlog/${id}`, {
+          fetch(`https://powerful-everglades-66107.herokuapp.com/deleteBlog/${id}`, {
             method: 'DELETE'
           })
             .then(res => res.json())

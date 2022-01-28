@@ -18,7 +18,7 @@ const Dashboard = () => {
   // check admin
   useEffect(() => {
     setIsLoading(true);
-    fetch(`http://localhost:5000/users/${user?.email}`)
+    fetch(`https://powerful-everglades-66107.herokuapp.com/users/${user?.email}`)
       .then(res => res.json())
       .then(data => {
         if (data.role === 'admin') {

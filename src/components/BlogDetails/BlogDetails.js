@@ -14,13 +14,13 @@ const BlogDetails = () => {
   const [allComments, setAllComments] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/${id}`)
+    fetch(`https://powerful-everglades-66107.herokuapp.com/${id}`)
       .then((res) => res.json())
       .then((data) => setAllComments(data));
   }, [allComments, id]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/${id}`)
+    fetch(`https://powerful-everglades-66107.herokuapp.com/${id}`)
       .then((res) => res.json())
       .then((data) => setBlog(data));
   }, [id]);
@@ -38,7 +38,7 @@ const BlogDetails = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:5000/comment", {
+    fetch("https://powerful-everglades-66107.herokuapp.com/comment", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -55,7 +55,7 @@ const BlogDetails = () => {
 
   // delete comment
   const handleDeleteComment = (id) => {
-    fetch(`http://localhost:5000/${id}`, {
+    fetch(`https://powerful-everglades-66107.herokuapp.com/${id}`, {
       method: "DELETE"
     })
   }
